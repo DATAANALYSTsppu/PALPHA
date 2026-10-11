@@ -1,0 +1,12 @@
+{
+  "name": "@polymarket-bot/category-weather",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@polymarket-bot/core": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

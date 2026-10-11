@@ -1,0 +1,45 @@
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Data dumps (large files)
+data/*.dump
+data/*.sql
+
+# Database
+*.db
+*.sqlite
+
+# Cache
+.cache/
+.next/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+coverage/
+*.pid
+*.seed
+
+# Guard: legacy non-(app) dashboard page directories.
+# All pages live under packages/dashboard/src/app/(app)/. If these reappear
+# as untracked files (e.g. from a stale checkout), Next.js fails the build
+# with "two parallel pages that resolve to the same path". Ignoring them
+# here means `git pull` never reintroduces them.
+packages/dashboard/src/app/backtests/
+packages/dashboard/src/app/positions/
+packages/dashboard/src/app/signals/
+packages/dashboard/src/app/traders/
